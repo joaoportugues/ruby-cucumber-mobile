@@ -1,10 +1,10 @@
 # Appium Server Side Ruby Samples
 
-This folder includes sample Appium tests using Ruby for Android and iOS, which can be run in [Bitbar Cloud](https://cloud.bitbar.com/).
+This folder includes sample Appium tests using Ruby for Android and iOS, which can be run
 
 ## Server Side Test Execution
 
-Create a zip file containing the project, which will be uploaded to [Bitbar Cloud](https://cloud.bitbar.com/).
+Create a zip file containing the project, which will be uploaded
 
 * On OSX/Linux machines you can just run the following command at the project's root directory:
 
@@ -75,6 +75,3 @@ in addition to the common settings done above, you need to change the following 
 launch from your package. Typically this is the main activity.
 
 ## Helpful Resources
-
-* [Complete list of available devices](https://cloud.bitbar.com/#public/devices)
-* [Bitbar Documentation](http://docs.bitbar.com/)

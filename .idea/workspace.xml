@@ -20,17 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f17defa-13d3-45ed-9fb1-1eb93c9b7ef3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run-local-test/config/local.config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run-local-test/features/landing.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run-local-test/features/login.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run-local-test/features/step_definitions/local_steps.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run-local-test/features/support/env.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run-local-test/features/support/hooks.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android_sample_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/android_sample_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run-tests_android.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup_appium.rb" beforeDir="false" afterPath="$PROJECT_DIR$/setup_appium.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run-local-test/config/local.config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/run-local-test/config/local.config.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +31,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -55,7 +48,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/run-local-test/features" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">

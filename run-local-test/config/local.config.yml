@@ -15,9 +15,9 @@ browser_caps:
 
 bitbar_caps:
   -
-    "bitbar_apiKey": "qk3of857UAWcPN6pKB6WBOjxts7pAFZE"
+    "bitbar_apiKey": "--"
     "bitbar_device": "Motorola Google Nexus 6 7.1.1"
-    "bitbar_app": "134123077"
+    "bitbar_app": "--"
     "bitbar_target": "android"
     "platformName": "Android"
     "deviceName": "Android Phone"
