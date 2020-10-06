@@ -1,0 +1,30 @@
+server: "localhost"
+
+common_caps:
+
+browser_caps:
+  -
+    "device": "Samsung Galaxy S7 edge"
+    "os_version": "8.0.0"
+    "browserstack.local": true
+    "name": "local_test"
+    "platformName": "Android"
+    "automationName": "Appium"
+    "appPackage": "com.nobigdeal"
+    "appActivity": "com.nobigdeal.MainActivity"
+
+bitbar_caps:
+  -
+    "bitbar_apiKey": "qk3of857UAWcPN6pKB6WBOjxts7pAFZE"
+    "bitbar_device": "Motorola Google Nexus 6 7.1.1"
+    "bitbar_app": "134123077"
+    "bitbar_target": "android"
+    "platformName": "Android"
+    "deviceName": "Android Phone"
+    "appPackage": "com.nobigdeal"
+    "appActivity": "com.nobigdeal.MainActivity"
+    "automationName": "Appium"
+    "bitbar_findDevice": false
+    "fullReset": false
+    "noReset": true
+    "maxInstances": 1
