@@ -2,11 +2,10 @@ server: "localhost"
 
 common_caps:
 
-browser_caps:
+local_caps:
   -
     "device": "Samsung Galaxy S7 edge"
     "os_version": "8.0.0"
-    "browserstack.local": true
     "name": "local_test"
     "platformName": "Android"
     "automationName": "Appium"
@@ -15,10 +14,12 @@ browser_caps:
 
 bitbar_caps:
   -
-    "bitbar_apiKey": "--"
+    "bitbar_apiKey": "Urn9Qh2MXFBG5j0aFeAb4wpfayFbbgOC"
     "bitbar_device": "Motorola Google Nexus 6 7.1.1"
-    "bitbar_app": "--"
+    "bitbar_app": "134123077"
     "bitbar_target": "android"
+    "bitbar_project": "nbd"
+    "bitbar_testrun": "nbd login test run"
     "platformName": "Android"
     "deviceName": "Android Phone"
     "appPackage": "com.nobigdeal"
