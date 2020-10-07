@@ -1,16 +1,16 @@
+require_relative '../pages/mainActions'
+include MainActions
+
 Given("I see {string}") do |text|
-  $wait.until { $driver.find_element(:uiautomator, 'new UiSelector().text("'+ text +'")').displayed? }
-  #$wait.until { $driver.find_element(:uiautomator, 'new UiSelector().text("Sign up")').displayed? }
-  #$driver.find_element(:id, "com.example.android.basicnetworking:id/test_action").click
+  readText(text)
 end
 
 And("I press {string}") do |element|
-  $driver.find_element(:uiautomator, 'new UiSelector().text("'+ element +'")').click
+  pressElement(element)
 end
 
 And("I type {string} in {string}") do |text, element|
-  $wait.until { $driver.find_element(:uiautomator, 'new UiSelector().text("'+ element +'")').displayed? }
-  $driver.find_element(:uiautomator, 'new UiSelector().text("'+ element +'")').send_key(text)
+  typeText(text, element)
 end
 
 Then("I should see {string}") do |match_string|

@@ -20,21 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f17defa-13d3-45ed-9fb1-1eb93c9b7ef3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/run-local-test/features/pages/mainActions.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidTest6.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidTest7.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEST-all.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android_sample_spec.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/createAndroidZip.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/createiOSZip.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios_sample_spec.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run-local-test/config/local.config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/run-local-test/config/local.config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run-local-test/features/support/env.rb" beforeDir="false" afterPath="$PROJECT_DIR$/run-local-test/features/support/env.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run-tests.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run-tests_ios.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup_appium.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run-local-test/features/step_definitions/local_steps.rb" beforeDir="false" afterPath="$PROJECT_DIR$/run-local-test/features/step_definitions/local_steps.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
