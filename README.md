@@ -11,7 +11,7 @@ Code samples to get started with Appium tests for your Native App using the Cucu
 
 ### Install the dependencies
 
-To install the dependencies for Android tests, run :
+To install the dependencies for Android tests, run (run on root folder - iOS will be implemented later):
 ```sh
 cd android/examples
 bundle install
@@ -19,7 +19,7 @@ bundle install
 
 Or,
 
-To install the dependencies for iOS tests, run :
+To install the dependencies for iOS tests, run (not implemented yet):
 
 ```sh
 cd ios/examples
