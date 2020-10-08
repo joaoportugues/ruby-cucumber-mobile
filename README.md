@@ -1,4 +1,4 @@
-cucumber-ruby-app-
+cucumber-ruby-app-nbd
 =====================
 
 Code samples to get started with Appium tests for your Native App using the Cucumber framework.
@@ -30,17 +30,18 @@ bundle install
 
 Getting Started with Appium tests in Cucumber Ruby
 
-### **Run first test :**
+- Navigate to root directory
 
-- Switch to `run_first_test` directory under [Android examples](android/examples) or [iOS examples](ios/examples)
+```sh
+rake
+```
 
-### **Speed up test execution with parallel testing :**
+### **Reports :**
 
-- Switch to `run_parallel_test` directory under [Android examples](android/examples/) or [iOS examples](ios/examples/)
-
-### **Use Local testing for apps that access resources hosted in development or testing environments :**
-
-- Switch to `run_local_test` directory under [Android examples](android/examples/) or [iOS examples](ios/examples/)
+```sh
+allure serve reports/allure-reports
+```
 
 ## Addtional Resources
 * [Cucumber](https://cucumber.io/)
+* [AllureReports](https://github.com/allure-framework/allure-ruby/blob/master/allure-cucumber/README.md) 

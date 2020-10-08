@@ -2,6 +2,16 @@ require 'yaml'
 require 'rspec'
 require 'selenium-cucumber'
 require 'appium_lib'
+require 'allure-cucumber'
+
+AllureCucumber.configure do |config|
+  config.results_directory = "/reports/allure-reports"
+  config.clean_results_directory = true
+  config.logging_level = Logger::INFO
+  # these are used for creating links to bugs or test cases where {} is replaced with keys of relevant items
+  #config.link_tms_pattern = "http://www.jira.com/browse/{}"
+  #config.link_issue_pattern = "http://www.jira.com/browse/{}"
+end
 
 TASK_ID = (ENV['TASK_ID'] || 0).to_i
 CONFIG_NAME = ENV['CONFIG_NAME'] || 'local'

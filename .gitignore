@@ -1,1 +1,2 @@
-run-local-test/config/local.config.yml
+run-local-test/config/*
+reports/allure-reports/*
