@@ -18,13 +18,13 @@ CONFIG_NAME = ENV['CONFIG_NAME'] || 'local'
 
 CONFIG = YAML.load(File.read(File.join(File.dirname(__FILE__), "../../config/#{CONFIG_NAME}.config.yml")))
 
-caps = CONFIG['local_caps'][TASK_ID]
+caps = CONFIG['bitbar_caps'][TASK_ID]
 
 desired_caps = {
   caps: caps,
   appium_lib: {
-    #server_url: "https://appium.bitbar.com:443/wd/hub"
-    server_url: "http://localhost:4723/wd/hub"
+    server_url: "https://appium.bitbar.com:443/wd/hub"
+    #server_url: "http://localhost:4723/wd/hub"
   }
 }
 

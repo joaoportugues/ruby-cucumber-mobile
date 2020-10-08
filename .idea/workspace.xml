@@ -22,13 +22,7 @@
     <list default="true" id="8f17defa-13d3-45ed-9fb1-1eb93c9b7ef3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rakefile" beforeDir="false" afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run-local-test/features/landing.feature" beforeDir="false" afterPath="$PROJECT_DIR$/run-local-test/features/landing.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run-local-test/features/support/env.rb" beforeDir="false" afterPath="$PROJECT_DIR$/run-local-test/features/support/env.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run-local-test/features/support/hooks.rb" beforeDir="false" afterPath="$PROJECT_DIR$/run-local-test/features/support/hooks.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,10 +47,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/run-local-test/config" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/run-local-test/config" />
       <recent name="$PROJECT_DIR$/run-local-test/features" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -85,9 +80,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="545" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601997200796">
+    <state x="545" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602155121601">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
-    <state x="545" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.981@0.23.1680.981" timestamp="1601997200796" />
+    <state x="545" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.981@0.23.1680.981" timestamp="1602155121601" />
   </component>
 </project>
