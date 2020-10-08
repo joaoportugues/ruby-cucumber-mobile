@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="rspec" tests="1" skipped="0" failures="0" errors="0" time="24.654529" timestamp="2020-10-06T12:16:49+02:00" hostname="Joaos-MBP.fritz.box">
-<properties>
-<property name="seed" value="57488"/>
-</properties>
-<testcase classname="android_sample_spec" name="TestSuite should show failure error" file="./android_sample_spec.rb" time="14.896220"></testcase>
-</testsuite>
