@@ -20,12 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f17defa-13d3-45ed-9fb1-1eb93c9b7ef3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/run-local-test/features/pages/exploreRewardsPage.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run-local-test/features/signup.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Rakefile" beforeDir="false" afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run-local-test/features/landing.feature" beforeDir="false" afterPath="$PROJECT_DIR$/run-local-test/features/landing.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run-local-test/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/run-local-test/features/login.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run-local-test/features/pages/mainActions.rb" beforeDir="false" afterPath="$PROJECT_DIR$/run-local-test/features/pages/mainActions.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run-local-test/features/support/env.rb" beforeDir="false" afterPath="$PROJECT_DIR$/run-local-test/features/support/env.rb" afterDir="false" />

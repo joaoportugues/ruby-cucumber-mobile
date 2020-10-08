@@ -7,7 +7,7 @@ def readText (text)
   case text.downcase
   when "profile menu"
    $wait.until { $driver.find_element(:xpath, PROFILE_MENU).displayed? }
-  #default action to read or find elements in the page
+  #default action to read or find elements in the page using text defined in the test case
   else
    $wait.until { $driver.find_element(:uiautomator, 'new UiSelector().text("'+ text +'")').displayed? }
   end
@@ -15,7 +15,22 @@ end
 
 #Press element method
 def pressElement (element)
-  $driver.find_element(:uiautomator, 'new UiSelector().text("'+ element +'")').click
+
+  case element.downcase
+  when "profile menu"
+    $driver.find_element(:xpath, PROFILE_MENU).click
+  when "log out"
+    (0...5).each do            # continue to scroll the element `times` time
+      ele = $driver.find_elements(:uiautomator, 'new UiSelector().text("'+ element +'")') # check if the element is displayed or not
+      $ta.swipe({start_x: 100, start_y: 600, end_x:100, end_y: 100, duration: 500}).perform # scroll down
+      unless ele.empty?  # click the element if the element is displayed
+        $driver.find_element(:uiautomator, 'new UiSelector().text("'+ element +'")').click
+      end
+    end
+  #default action to press and elements in the page using text defined in the test case
+  else
+    $driver.find_element(:uiautomator, 'new UiSelector().text("'+ element +'")').click
+  end
 end
 
 #Type text method

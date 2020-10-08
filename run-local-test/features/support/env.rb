@@ -3,12 +3,13 @@ require 'rspec'
 require 'selenium-cucumber'
 require 'appium_lib'
 require 'allure-cucumber'
+require 'touch_action'
 
 AllureCucumber.configure do |config|
   config.results_directory = "/reports/allure-reports"
   config.clean_results_directory = true
   config.logging_level = Logger::INFO
-  # these are used for creating links to bugs or test cases where {} is replaced with keys of relevant items
+  #these are used for creating links to bugs or test cases where {} is replaced with keys of relevant items
   #config.link_tms_pattern = "http://www.jira.com/browse/{}"
   #config.link_issue_pattern = "http://www.jira.com/browse/{}"
 end
@@ -18,13 +19,13 @@ CONFIG_NAME = ENV['CONFIG_NAME'] || 'local'
 
 CONFIG = YAML.load(File.read(File.join(File.dirname(__FILE__), "../../config/#{CONFIG_NAME}.config.yml")))
 
-caps = CONFIG['local_caps'][TASK_ID]
+caps = CONFIG['bitbar_caps'][TASK_ID]
 
 desired_caps = {
   caps: caps,
   appium_lib: {
-    #server_url: "https://appium.bitbar.com:443/wd/hub"
-    server_url: "http://localhost:4723/wd/hub"
+    server_url: "https://appium.bitbar.com:443/wd/hub"
+    #server_url: "http://localhost:4723/wd/hub"
   }
 }
 
@@ -37,5 +38,6 @@ rescue Exception => e
 end
 
 $wait = Selenium::WebDriver::Wait.new(:timeout => 30)
-$waitSignIn = Selenium::WebDriver::Wait.new(:timeout => 5)
+$ta = Appium::TouchAction.new
+
 

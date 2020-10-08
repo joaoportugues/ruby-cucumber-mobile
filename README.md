@@ -36,6 +36,15 @@ Getting Started with Appium tests in Cucumber Ruby
 rake
 ```
 
+- To run only tagged tests change Rakefile to run tags and then run tests
+```sh
+task.cucumber_opts = ['--format=AllureCucumber::CucumberFormatter',  '--require run-local-test/', 'run-local-test/', 'CONFIG_NAME=local', '--publish', '--out reports/allure-reports', '--tags "@runThis"']
+```
+
+```sh
+rake
+```
+
 ### **Reports :**
 
 ```sh
