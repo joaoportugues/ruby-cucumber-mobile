@@ -15,12 +15,11 @@ end
 
 #Press element method
 def pressElement (element)
-
   case element.downcase
   when "profile menu"
     $driver.find_element(:xpath, PROFILE_MENU).click
   when "log out"
-    (0...5).each do            # continue to scroll the element `times` time
+    (0...5).each do            # continue to scroll the until element if found / probably will be added to the default method
       ele = $driver.find_elements(:uiautomator, 'new UiSelector().text("'+ element +'")') # check if the element is displayed or not
       $ta.swipe({start_x: 100, start_y: 600, end_x:100, end_y: 100, duration: 500}).perform # scroll down
       unless ele.empty?  # click the element if the element is displayed

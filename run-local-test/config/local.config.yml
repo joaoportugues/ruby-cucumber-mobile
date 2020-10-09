@@ -15,7 +15,7 @@ local_caps:
 bitbar_caps:
   -
     "bitbar_apiKey": "Urn9Qh2MXFBG5j0aFeAb4wpfayFbbgOC"
-    "bitbar_device": "Motorola Google Nexus 6 7.1.1"
+    "bitbar_device": "LG Google Nexus 5 6.0.1"
     "bitbar_app": "134123077"
     "bitbar_target": "android"
     "bitbar_project": "nbd"

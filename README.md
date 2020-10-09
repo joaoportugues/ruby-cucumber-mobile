@@ -6,6 +6,14 @@ Code samples to get started with Appium tests for your Native App using the Cucu
 ## Setup
 ### Requirements
 
+```sh
+ruby -v
+ruby 2.6.3p62 (2019-04-16 revision 67580) [universal.x86_64-darwin19]
+
+bundler -v
+Bundler version 1.17.2
+```
+
 1. Ruby: If you don't have Ruby installed, follow the instructions given [here](https://www.ruby-lang.org/en/documentation/installation/)
 2. Bundler : If you dont have Bundler installed, follow the instructions given [here](https://bundler.io/)
 
@@ -48,6 +56,7 @@ rake
 ### **Reports :**
 
 ```sh
+brew install allure
 allure serve reports/allure-reports
 ```
 
